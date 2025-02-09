@@ -7,9 +7,8 @@ import 'firebase_options.dart';
 import 'signupScreen.dart';
 
 void main() async {
+  // second commit
   WidgetsFlutterBinding.ensureInitialized();
-
-  // Initialize Firebase
 await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
